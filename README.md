@@ -48,10 +48,10 @@ http://localhost/ZawodySportoweApp/
 7. Sprawdź dane połączeniowe w `config.php`:
 
 ```php
-$host = 'localhost';
-$user = 'root';
-$password = '';
-$database = 'zawody_sportowe';
+define("SERWER", "127.0.0.1");
+define("UZYTKOWNIK", "root");
+define("HASLO", "");
+define("NAZWA_BAZY", "zawody_sportowe");
 ```
 
 ## 💾 Folder database/
