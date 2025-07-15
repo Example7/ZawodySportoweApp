@@ -66,5 +66,35 @@ Struktura bazy danych obejmuje:
 - Kategorie
 - Sesje logowania itd.
 
+---
+
+## 🗂️ Zawartość projektu
+
+- `index.php`, `logowanie.php`, `rejestracja.php`, `konto.php` – logika logowania i rejestracji użytkowników
+- `zawody.php`, `wyniki.php`, `raport_pdf.php` – zarządzanie zawodami i generowanie raportów
+- `funkcje.php` – funkcje pomocnicze (m.in. do bazy)
+- `config.php` – konfiguracja połączenia z bazą danych
+- `composer.json` – plik Composera (używany do generowania PDF-ów)
+- `style.css` – stylowanie
+- `images/` – zawiera:
+  - `raport_wynikow.pdf` – przykładowy raport PDF
+  - `logos/` – loga zawodów
+- `uzytkownicy/` – wygenerowane przez organizatora listy użytkowników z bazy danych
+- `errors/error_log.txt` – logi błędów (np. problemów z połączeniem do bazy)
+- `database/zawody_sportowe.sql` – skrypt SQL tworzący i wypełniający bazę danych
+
+---
+
+## 🔐 Dane testowe do logowania
+
+Możesz zalogować się na jedno z poniższych kont:
+
+| Login        | Hasło | Rola        |
+|--------------|-------|-------------|
+| uzytkownik48 | haslo | uczestnik   |
+| kacper       | haslo | organizator |
+
+---
+
 ## 👨‍💻 Autor
 **Kacper Kałużny** ([Example7](https://github.com/Example7))
