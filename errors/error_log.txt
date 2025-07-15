@@ -1,0 +1,1 @@
+[2025-01-26 15:40:12] Wystąpił błąd: Nie można nawiązać połączenia, ponieważ komputer docelowy aktywnie go odmawia

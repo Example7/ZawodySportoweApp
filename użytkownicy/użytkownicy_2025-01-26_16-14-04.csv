@@ -1,0 +1,6 @@
+Id,login,Imie,Nazwisko,Email,Rola
+8,uzytkownik48,Adam,Nowak,uzytkownik123@example.com,uczestnik
+10,kacper,Kacper,Kałużny,email1234@example.com,organizator
+11,kacper123,Kacper,Kałużny,email321@example.com,uczestnik
+12,kacper2,Alfred,Łoboda,email5@example.com,uczestnik
+16,pawel,Paweł,Kot,email9@example.com,widz
