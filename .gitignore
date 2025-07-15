@@ -1,0 +1,6 @@
+*.log
+vendor/
+.env
+.idea/
+*.sql
+*.zip
